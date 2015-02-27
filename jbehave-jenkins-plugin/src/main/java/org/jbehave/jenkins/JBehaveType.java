@@ -16,7 +16,7 @@ public class JBehaveType extends TestType {
     }
 
     public Object readResolve() {
-        return new JBehavePluginType(this.getPattern(), this.isFailIfNotNew(), false, this.isStopProcessingIfError());
+        return new JBehavePluginType(this.getPattern(), this.isFailIfNotNew(), this.isDeleteOutputFiles(), this.isStopProcessingIfError());
     }
 
 }
