@@ -68,13 +68,13 @@
       <repositories>
         <repository>
           <id>jenkins</id>
-          <url>http://maven.jenkins-ci.org/content/repositories/releases/</url>
+          <url>http://repo.jenkins-ci.org/releases/</url>
         </repository>
       </repositories>
       <pluginRepositories>
         <pluginRepository>
           <id>jenkins</id>
-          <url>http://maven.jenkins-ci.org/content/repositories/releases/</url>
+          <url>http://repo.jenkins-ci.org/releases/</url>
         </pluginRepository>
       </pluginRepositories>
     </profile>
